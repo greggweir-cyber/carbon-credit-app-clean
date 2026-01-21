@@ -1,2 +1,2 @@
 species_name,region,component,equation_type,predictor_vars,formula_text,biomass_units,dbh_units,dbh_min,dbh_max,height_units,height_min,height_max,wood_density,source_name,source_citation,source_url,notes
-Pinus ponderosa,temperate,AGB,LOG_LINEAR_DBH,DBH,"log(Biomass) = -4.2063 + 2.2312 * log(DBH)",kg,cm,,,m,,,,0.45,Jenkins 2003,USDA Forest Service NE-GTR-319,,,"Baseline verified row"
+Pinus ponderosa,temperate,AGB,LOG_LINEAR_DBH,DBH,"log(Biomass) = -4.2063 + 2.2312 * log(DBH)",kg,cm,,,,,,0.45,Jenkins 2003,USDA Forest Service NE-GTR-319,,Baseline verified row
