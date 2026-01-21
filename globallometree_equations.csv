@@ -1,2 +1,4 @@
 species_name,region,component,equation_type,formula_text,wood_density
 Pinus ponderosa,temperate,AGB,LOG_LINEAR_DBH,"log(Biomass) = -4.2063 + 2.2312 * log(DBH)",0.45
+
+Pseudotsuga menziesii,temperate,AGB,LOG_LINEAR_DBH,"log(Biomass) = -2.2304 + 2.4435 * log(DBH)",0.45
