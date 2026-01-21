@@ -1,3 +1,7 @@
 # Python cache
 __pycache__/
 *.pyc
+
+# Generated GlobAllomeTree outputs
+data/staging/*.csv
+data/processed/*.csv
