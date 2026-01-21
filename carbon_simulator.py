@@ -3,7 +3,7 @@ import numpy as np
 import re
 
 class CarbonCreditSimulator:
-    def __init__(self, data_path="globallometree_equations.csv"):
+    def __init__(self, data_path="data/processed/globallometree_equations__staged__normalized.csv"):
         self.equations_df = pd.read_csv(data_path)
         self.coeff_cache = {}
         self._build_coeff_cache()
