@@ -19,7 +19,7 @@ species = st.selectbox("Species", native_species, index=0)
 
 dbh_cm = st.number_input("DBH (cm)", min_value=1.0, value=30.0, step=1.0)
 
-sim = CarbonCreditSimulator("globallometree_equations.csv")
+sim = CarbonCreditSimulator("globallometree_raw_import.csv")
 agb_kg = sim.calculate_agb_kg(dbh_cm, species, ecoregion)
 
 st.write("### Result")
